@@ -6,6 +6,6 @@ function filterArray(numbers, value) {
       newArray.push(number);
     }
   }
-
+  console.log(newArray);
   return newArray;
 }
