@@ -3,5 +3,6 @@ function makeArray(firstArray, secondArray, maxLength) {
   if (newArray.length > maxLength) {
     newArray.length = maxLength;
   }
+  console.log(newArray);
   return newArray;
 }
