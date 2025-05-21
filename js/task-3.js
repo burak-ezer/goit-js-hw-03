@@ -1,12 +1,10 @@
 function filterArray(numbers, value) {
-  const newArray = [];
-
-  for (const number of numbers) {
-    if (number > value) {
-      newArray.push(number);
+    let dizi = [];
+    for (const number of numbers) {
+      if (number>value) {
+        dizi.push(number);
+      }
     }
-  }
-
-  return newArray;
+    console.log(dizi);
+    return dizi;
 }
-console.log(newArray);
